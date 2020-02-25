@@ -5,3 +5,13 @@
 #
 #   cities = City.create([{ name: 'Chicago' }, { name: 'Copenhagen' }])
 #   Mayor.create(name: 'Emanuel', city: cities.first)
+
+
+
+rich = Passenger.create(name: "Richard", price: 15.64)
+ing = Passenger.create(name: "Ingrid", price: 31.48)
+
+matt = Taxi.create(driver_name: "Matthew", model: "Corola")
+edgar = Taxi.create(driver_name: "Edgar", model: "Camry")
+
+
